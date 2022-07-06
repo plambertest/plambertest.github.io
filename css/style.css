@@ -40,6 +40,12 @@ header{
     top: 28px;
     font-size: 17px;
 }
+.nt2{
+    position: absolute;
+    right: 128px;
+    top: 28px;
+    font-size: 17px;
+}
 .sn{
     position: absolute;
     right: 290px;
@@ -54,9 +60,37 @@ header{
     font-size: 20px;
     color: #777;
 }
+.av2{
+    position: absolute;
+    right: 628px;
+    top: 25px;
+    font-size: 20px;
+    color: #777;
+}
 .sn2{
     color: #777;
 }
-.av2{
+.av22{
     color: #111;
+}
+@media (max-width: 928px){
+    .av{
+        top: 40px;
+        right: 292px;
+    }
+    .av2{
+        top: 20px;
+        right: 347px;
+    }
+    .sn{
+        right: 172px;
+    }
+    .nt{
+        top: 40px;
+        right: 30px;
+    }
+    .nt2{
+        top: 20px;
+        right: 10px;
+    }
 }

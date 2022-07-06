@@ -23,17 +23,17 @@ header{
 }
 .pll{
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 2px;
-    height: 70px;
+    height: 80px;
     width: height;
 }
 .plt{
     position: absolute;
-    top: 37px;
-    left: 70px;
-    height: 25px;
-    width: 136px;
+    top: 33px;
+    left: 75px;
+    height: 30px;
+    width: 164px;
 }
 .nt{
     position: absolute;
@@ -74,7 +74,7 @@ header{
 .av22{
     color: #111;
 }
-@media (max-width: 1028px){
+@media (max-width: 1055px){
     .av{
         top: 50px;
         right: 392px;

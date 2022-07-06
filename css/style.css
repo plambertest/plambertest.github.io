@@ -10,7 +10,7 @@ body{
     padding: 0px 15px;
 }
 header{
-    height: 80px;
+    height: 100px;
 }
 .headerbg{
     position: relative;
@@ -22,14 +22,14 @@ header{
 }
 .pll{
     position: absolute;
-    top: 5px;
+    top: 15px;
     left: 2px;
     height: 70px;
     width: height;
 }
 .plt{
     position: absolute;
-    top: 27px;
+    top: 37px;
     left: 70px;
     height: 25px;
     width: 136px;
@@ -37,33 +37,33 @@ header{
 .nt{
     position: absolute;
     right: 10px;
-    top: 28px;
+    top: 38px;
     font-size: 17px;
 }
 .nt2{
     position: absolute;
     right: 128px;
-    top: 28px;
+    top: 38px;
     font-size: 17px;
 }
 .sn{
     position: absolute;
-    right: 290px;
-    top: 24px;
+    right: 340px;
+    top: 34px;
     font-size: 20px;
     color: #111;
 }
 .av{
     position: absolute;
-    right: 410px;
-    top: 25px;
+    right: 510px;
+    top: 35px;
     font-size: 20px;
     color: #777;
 }
 .av2{
     position: absolute;
-    right: 628px;
-    top: 25px;
+    right: 728px;
+    top: 35px;
     font-size: 20px;
     color: #777;
 }
@@ -73,24 +73,24 @@ header{
 .av22{
     color: #111;
 }
-@media (max-width: 928px){
+@media (max-width: 1028px){
     .av{
-        top: 40px;
-        right: 292px;
+        top: 50px;
+        right: 392px;
     }
     .av2{
-        top: 20px;
-        right: 347px;
+        top: 30px;
+        right: 447px;
     }
     .sn{
-        right: 172px;
+        right: 222px;
     }
     .nt{
-        top: 40px;
+        top: 50px;
         right: 30px;
     }
     .nt2{
-        top: 20px;
+        top: 30px;
         right: 10px;
     }
 }

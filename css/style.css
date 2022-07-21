@@ -111,27 +111,6 @@ header{
     top: 38px;
     font-size: 17px;
 }
-.sn{
-    position: absolute;
-    right: 340px;
-    top: 34px;
-    font-size: 20px;
-    color: blue;
-}
-.av{
-    position: absolute;
-    right: 510px;
-    top: 35px;
-    font-size: 20px;
-    color: blue;
-}
-.av2{
-    position: absolute;
-    right: 728px;
-    top: 35px;
-    font-size: 20px;
-    color: blue;
-}
 .sanb {
     position: relative;
     height: 0;
@@ -166,7 +145,7 @@ header{
 }
 .sanc1{
     position: relative;
-    width: 100vw;
+    width: 98vw;
     height: 40vw;
     margin: 0 0 35px 0;
     top: 35px;
@@ -210,7 +189,7 @@ header{
 
 .avc1{
   position: relative;
-  width: 100vw;
+  width: 98vw;
   height: 40vw;
   margin: 0 0 35px 0;
   top: 35px;
@@ -226,8 +205,8 @@ header{
   position: relative;
   margin: 0 auto;
   top:50%;
-  width: 50%;
-  right: -23%;
+  width: 43%;
+  right: -27%;
   transform:translate(0, -50%);
 }
 .avch{
@@ -248,32 +227,113 @@ header{
   top: 0;
 }
 
-
-@media (max-width: 1055px){
-    .av{
-        top: 50px;
-        right: 392px;
-    }
-    .av2{
-        top: 30px;
-        right: 447px;
-    }
-    .sn{
-        right: 222px;
-    }
-    .nt{
-        top: 50px;
-        right: 30px;
-    }
-    .nt2{
-        top: 30px;
-        right: 10px;
-    }
+.sando{
+  position: relative;
+  left: 19px;
+  bottom: 5px;
+  padding-left: 1px;
+  padding-top: 1px;
 }
 
-@media screen and (min-aspect-ratio: 10/4) {
-  .sanc1 {
-    width: 250vh;
-    height: 100vh;
+.avdo{
+  position: absolute;
+  right: 19px;
+  bottom: 5px;
+  padding-left: 1px;
+  padding-top: 1px;
+}
+.avdo1{
+  position: absolute;
+  background: #1d46c0;
+  border: 4px solid #1a2294;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.avdo11{
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  top: -5px;
+  left: 7px;
+}
+.avdo2{
+  position: relative;
+  left: 35px;
+  top: 1px;
+}
+.sandok{
+  position: absolute;
+  left: -1000px;
+  width: 450px;
+  border: solid 1px;
+  font-size: 15px;
+  padding-left: 5px;
+  background: rgb(119, 184, 209);
+  opacity: 0;
+}
+.avdok{
+  position: absolute;
+  left: -1000px;
+  width: 350px;
+  border: solid 1px;
+  font-size: 15px;
+  padding-left: 5px;
+  background: rgb(119, 184, 209);
+  opacity: 0;
+}
+
+@media (max-width: 851px){
+  .sanimg{
+    position: relative;
+    width: 98vw; 
+    height: 69vw;
+    margin-bottom: 30%;
+  }
+  .sanc1{
+    height: min-content;
+  }
+  .sancht{
+    position: relative;
+    top: 0;
+  }
+  .sanct{
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 30px;
+  }
+  .sanch{
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+  }
+
+
+  .avimg{
+    position: relative;
+    width: 98vw; 
+    height: 69vw;
+    margin-bottom: 35%;
+  }
+  .avc1{
+    height: min-content;
+  }
+  .avcht{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    top: 0;
+    left: 0;
+  }
+  .avct{
+    left: auto;
+    font-size: 30px;
+    max-width: 1000px;
+  }
+  .avch{
+    font-size: 50px;
   }
 }

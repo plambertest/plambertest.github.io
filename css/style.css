@@ -337,3 +337,58 @@ header{
     font-size: 50px;
   }
 }
+
+@media (max-width: 10cm){
+  .sanimg{
+    position: relative;
+    width: 98vw; 
+    height: 69vw;
+    margin-bottom: 30%;
+  }
+  .sanc1{
+    height: min-content;
+  }
+  .sancht{
+    position: relative;
+    top: 0;
+  }
+  .sanct{
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 30px;
+  }
+  .sanch{
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+  }
+
+
+  .avimg{
+    position: relative;
+    width: 98vw; 
+    height: 69vw;
+    margin-bottom: 35%;
+  }
+  .avc1{
+    height: min-content;
+  }
+  .avcht{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    top: 0;
+    left: 0;
+  }
+  .avct{
+    left: auto;
+    font-size: 30px;
+    max-width: 1000px;
+  }
+  .avch{
+    font-size: 50px;
+  }
+}

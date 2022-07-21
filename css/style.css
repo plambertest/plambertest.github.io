@@ -338,7 +338,7 @@ header{
   }
 }
 
-@media (min-width: 10cm){
+@media (min-width: 8cm){
   .sanimg{
     position: relative;
     width: 98vw; 
@@ -364,6 +364,10 @@ header{
     margin-left: auto;
     margin-right: auto;
     font-size: 50px;
+  }
+  .sandok{
+    width: 700px;
+    font-size: 23px;
   }
 
 

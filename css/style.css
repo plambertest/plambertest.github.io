@@ -338,7 +338,7 @@ header{
   }
 }
 
-@media (max-width: 10cm){
+@media (min-width: 10cm){
   .sanimg{
     position: relative;
     width: 98vw; 

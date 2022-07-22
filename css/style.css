@@ -338,7 +338,7 @@ header{
   }
 }
 
-@media (max-width: 14cm){
+@media (max-width: 768px){
   .sanimg{
     position: relative;
     width: 98vw; 
@@ -395,11 +395,15 @@ header{
   .avch{
     font-size: 50px;
   }
+  .avdok{
+    width: 544px;
+    font-size: 23px;
+  }
 }
 
 .qwq{
   background: black;
-  width: 14cm;
+  width: 140mm;
   height: 5px;
   margin-top: 20px;
   margin-bottom: 20px;

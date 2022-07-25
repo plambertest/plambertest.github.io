@@ -132,6 +132,7 @@ header{
     border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="blue" cx="1" cy="0.5" r="0.5"></circle></svg>') 0 0 100% repeat;
     background-position: 50%;
     box-sizing: border-box;
+    top: 35px;
 }
 .pltext{
     position: relative;
@@ -230,7 +231,7 @@ header{
 .sando{
   position: relative;
   left: 19px;
-  bottom: 5px;
+  bottom: -15px;
   padding-left: 1px;
   padding-top: 1px;
 }
@@ -238,7 +239,7 @@ header{
 .avdo{
   position: absolute;
   right: 19px;
-  bottom: 5px;
+  bottom: -15px;
   padding-left: 1px;
   padding-top: 1px;
 }
@@ -401,7 +402,7 @@ header{
   }
 }
 .footer{
-  margin-top: 50px;
+  margin-top: 85px;
   height: 120px;
   background: #1e73be;
 }

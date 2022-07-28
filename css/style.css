@@ -434,6 +434,9 @@ header{
     width: 765px;
     font-size: 26px;
   }
+  .sanb{
+    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 2" width="16" height="8"><circle fill="blue" cx="2" cy="1" r="1"></circle></svg>') 0 0 100% repeat;
+  }
 
 
   .avimg{
@@ -467,5 +470,8 @@ header{
   .avdok{
     width: 595px;
     font-size: 26px;
+  }
+  .avb{
+    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 2" width="16" height="8"><circle fill="blue" cx="2" cy="1" r="1"></circle></svg>') 0 0 100% repeat;
   }
 }

@@ -227,7 +227,6 @@ header{
   left: 0;
   top: 0;
 }
-
 .sando{
   position: relative;
   left: 19px;
@@ -242,26 +241,6 @@ header{
   bottom: -15px;
   padding-left: 1px;
   padding-top: 1px;
-}
-.avdo1{
-  position: absolute;
-  background: #1d46c0;
-  border: 4px solid #1a2294;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-}
-.avdo11{
-  position: absolute;
-  color: #fff;
-  font-size: 20px;
-  top: -5px;
-  left: 7px;
-}
-.avdo2{
-  position: relative;
-  left: 35px;
-  top: 1px;
 }
 .sandok{
   position: absolute;
@@ -282,6 +261,87 @@ header{
   padding-left: 5px;
   background: rgb(119, 184, 209);
   opacity: 0;
+}
+
+.footer{
+  position: relative;
+  top: 85px;
+  height: 120px;
+  background: #1e73be;
+}
+.he1{
+  position: relative;
+  width: 53%;
+  height: 100px;
+  left: 47%;
+  top: -100px;
+}
+.fs22{
+  position: relative;
+  width: 50%;
+  height: 120px;
+  left: 50%;
+}
+.he2{
+  position: relative;
+  color: #0000a8;
+  top: 36px;
+}
+.he21{
+  position: relative;
+  color: #0000a8;
+  top: 24px;
+  left: 5px;
+}
+.he22{
+  position: relative;
+  color: #0000a8;
+  top: 50px;
+  left: -120px;
+  margin-right: -120px;
+}
+.fs2{
+  position: relative;
+  color: white;
+  top: 50px;
+}
+.vibera{
+  position: absolute;
+  left: 120px;
+  top: 30px;
+}
+.viberimg{
+  position: absolute;
+  height: 29px;
+  width: auto;
+  right: 80px;
+}
+.viberimg2{
+  position: relative;
+  height: 17px;
+  width: auto;
+  left: -15px;
+  top: 4px;
+}
+
+.telegrama{
+  position: absolute;
+  left: 205px;
+  top: 30px;
+}
+.telegramimg{
+  position: absolute;
+  height: 33px;
+  width: auto;
+  right: 100px;
+  top: -3;
+}
+.telegramimg2{
+  position: relative;
+  height: 22px;
+  width: auto;
+  left: 7px;
+  top: 4px;
 }
 
 @media (max-width: 851px){
@@ -366,6 +426,10 @@ header{
     margin-right: auto;
     font-size: 50px;
   }
+  .sando{
+    width: 215px;
+    height: 54px;
+  }
   .sandok{
     width: 765px;
     font-size: 26px;
@@ -396,34 +460,12 @@ header{
   .avch{
     font-size: 50px;
   }
+  .avdo{
+    width: 215px;
+    height: 54px;
+  }
   .avdok{
     width: 595px;
     font-size: 26px;
   }
-}
-.footer{
-  margin-top: 85px;
-  height: 120px;
-  background: #1e73be;
-}
-.fs11{
-  position: absolute;
-  width: 50%;
-  height: 120px;
-}
-.fs22{
-  position: relative;
-  width: 50%;
-  height: 120px;
-  left: 50%;
-}
-.fs1{
-  position: relative;
-  color: white;
-  top: 50px;
-}
-.fs2{
-  position: relative;
-  color: white;
-  top: 50px;
 }

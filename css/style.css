@@ -307,42 +307,62 @@ header{
 }
 .vibera{
   position: absolute;
-  left: 120px;
-  top: 30px;
+  left: 155px;
+  top: 20px;
 }
 .viberimg{
   position: absolute;
-  height: 29px;
+  height: 26px;
   width: auto;
   right: 80px;
 }
 .viberimg2{
   position: relative;
-  height: 17px;
+  height: 15px;
   width: auto;
-  left: -15px;
+  left: -22px;
   top: 4px;
 }
 
 .telegrama{
   position: absolute;
-  left: 205px;
-  top: 30px;
+  left: 240px;
+  top: 20px;
 }
 .telegramimg{
   position: absolute;
-  height: 33px;
+  height: 30px;
   width: auto;
   right: 100px;
   top: -3;
 }
 .telegramimg2{
   position: relative;
-  height: 22px;
+  height: 19px;
   width: auto;
-  left: 7px;
+  left: -4px;
   top: 4px;
 }
+.maila{
+  position: absolute;
+  left: 100px;
+  top: 65px;
+}
+.mailimg{
+  position: absolute;
+  height: 33px;
+  width: auto;
+  left: -30;
+  top: 6;
+}
+.mailt{
+  position: relative;
+  font-size: 21;
+  left: 7px;
+  top: 3px;
+  color: white;
+}
+
 
 @media (max-width: 851px){
   .sanimg{
@@ -434,9 +454,6 @@ header{
     width: 765px;
     font-size: 26px;
   }
-  .sanb{
-    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 2" width="16" height="8"><circle fill="blue" cx="2" cy="1" r="1"></circle></svg>') 0 0 100% repeat;
-  }
 
 
   .avimg{
@@ -470,8 +487,5 @@ header{
   .avdok{
     width: 595px;
     font-size: 26px;
-  }
-  .avb{
-    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 2" width="16" height="8"><circle fill="blue" cx="2" cy="1" r="1"></circle></svg>') 0 0 100% repeat;
   }
 }

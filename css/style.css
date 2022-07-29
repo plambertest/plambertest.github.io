@@ -269,13 +269,6 @@ header{
   height: 120px;
   background: #1e73be;
 }
-.he1{
-  position: relative;
-  width: 53%;
-  height: 100px;
-  left: 47%;
-  top: -100px;
-}
 .fs22{
   position: relative;
   width: 50%;
@@ -283,15 +276,17 @@ header{
   left: 50%;
 }
 .he2{
-  position: relative;
+  position: absolute;
   color: #0000a8;
   top: 36px;
+  right: 184px;
 }
-.he21{
-  position: relative;
+.he3{
+  position:absolute;
   color: #0000a8;
-  top: 24px;
-  left: 5px;
+  top: 26px;
+  right: 50px;
+  width: 130px;
 }
 .he22{
   position: relative;

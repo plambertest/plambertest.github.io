@@ -414,7 +414,7 @@ header{
   }
 }
 
-@media (min-resolution: 120dpi){
+@media (min-resolution: 150dpi){
   .sanimg{
     position: relative;
     width: 98vw; 

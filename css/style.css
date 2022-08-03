@@ -359,7 +359,7 @@ header{
 }
 
 
-@media (max-width: 851px){
+@media only screen and (max-width: 851px){
   .sanimg{
     position: relative;
     width: 98vw; 
@@ -414,33 +414,7 @@ header{
   }
 }
 
-@media (min-resolution: 150dpi){
-  .sanimg{
-    position: relative;
-    width: 98vw; 
-    height: 69vw;
-    margin-bottom: 30%;
-  }
-  .sanc1{
-    height: min-content;
-  }
-  .sancht{
-    position: relative;
-    top: 0;
-  }
-  .sanct{
-    left: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    font-size: 30px;
-  }
-  .sanch{
-    left: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 50px;
-  }
+@media (min-resolution: 120dpi){
   .sando{
     width: 215px;
     height: 54px;
@@ -449,32 +423,7 @@ header{
     width: 765px;
     font-size: 26px;
   }
-
-
-  .avimg{
-    position: relative;
-    width: 98vw; 
-    height: 69vw;
-    margin-bottom: 35%;
-  }
-  .avc1{
-    height: min-content;
-  }
-  .avcht{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    top: 0;
-    left: 0;
-  }
-  .avct{
-    left: auto;
-    font-size: 30px;
-    max-width: 1000px;
-  }
-  .avch{
-    font-size: 50px;
-  }
+  
   .avdo{
     width: 215px;
     height: 54px;

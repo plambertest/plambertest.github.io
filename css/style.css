@@ -167,7 +167,7 @@ header{
 .sanch{
     position: relative;
     font-size: 40px;
-    left: 6%;
+    left: 7%;
     width: 41%;
     text-align: center;
     color: rgb(0, 0, 165);
@@ -175,10 +175,9 @@ header{
 .sanct{
     position: relative;
     font-size: 20px;
-    left: 6%;
+    left: 7%;
     width: 41%;
     text-align: center;
-    max-width: 750px;
 }
 .sanimg{
     position: absolute;

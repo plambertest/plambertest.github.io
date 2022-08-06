@@ -359,7 +359,7 @@ header{
 }
 
 
-@media only screen and (max-width: 851px){
+@media screen and (max-width: 851px){
   .sanimg{
     position: relative;
     width: 98vw; 
